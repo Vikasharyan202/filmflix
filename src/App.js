@@ -1,10 +1,10 @@
-import './App.css';
-
+import Body from "./components/Body";
 function App() {
   return (
     <div className="text-3xl text-green-400">
-      Welcome, Let's start to build flimflix application 
+      <Body/>
     </div>
+    
   );
 }
 
